@@ -256,8 +256,7 @@ Features beyond the current hackathon MVP scope:
 ## 👥 Team Diazonium
 
 - **Ananya Joshi** — Frontend + Backend + Deployment
-- **Vaibhav** — Documentation + Pitch
-- **Utkarsh** — Decision Engine + Mathematical Model
+- **Utkarsh** — Decision Engine + Mathematical Model + Documentation
 - **Unnat** — Hardware + ESP32 Integration
 
 ---
