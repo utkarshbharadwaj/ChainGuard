@@ -7,7 +7,7 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=FastAPI&logoColor=white)](https://fastapi.tiangolo.com/)
 [![ESP32](https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white)](#)
 [![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=grey)](https://developer.mozilla.org/)
 [![Live Demo](https://img.shields.io/badge/Live_Demo-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://chain-guard-ruddy.vercel.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ananyajoshi-cseai/ChainGuard)
 
@@ -46,7 +46,48 @@ graph LR
 - **API Health Check:** [https://chainguard-qpy6.onrender.com/health](https://chainguard-qpy6.onrender.com/health)
 - **GitHub Repository:** [https://github.com/ananyajoshi-cseai/ChainGuard](https://github.com/ananyajoshi-cseai/ChainGuard)
 
----
+## 📸 Visual Overview & Reference Links
+
+<br>
+
+### 🖥️ Live Monitoring Dashboard
+
+The web dashboard provides real-time tracking of the shipment's integrity score, risk analysis, and raw sensor conditions.
+
+![Dashboard Overview](<dashboard1.png>)
+
+<br>
+
+Historical telemetry, event logs, and active condition excursions are visualized on the tracking timeline.
+
+![Dashboard Telemetry & Events](dashboard2.png)
+
+<br>
+<br>
+
+### 🔌 Hardware Circuit & Simulation
+
+Before physical deployment, the ESP32-based hardware edge was architected and tested using Cirkit Designer. 
+
+![Circuit Design](<circuit1.png>)
+
+<br>
+
+![Simulation Initialization](<simulation1.png>)
+
+<br>
+
+The simulation console demonstrates the ESP32 successfully polling sensors and transmitting JSON payloads to the backend API
+
+![Simulation Telemetry Flow](<simulation2.png>)
+
+<br>
+
+### 🔗 Key Project Links
+
+* **[Cirkit Designer Simulation Workspace](https://app.cirkitdesigner.com/project/80530e4d-29f7-445a-b491-e911d28aa472):** View our interactive hardware simulation, wiring schematics, and component layout for the ESP32 and its connected sensors.
+* **[Live FastAPI Backend](https://chainguard-qpy6.onrender.com/):** The deployed cloud backend that actively receives telemetry, powers the decision engine, and serves data to the frontend dashboard.
+<br>
 
 ## ⚙️ Core Architecture
 
